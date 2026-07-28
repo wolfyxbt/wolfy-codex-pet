@@ -1,0 +1,12 @@
+{
+  "direction": "090",
+  "status": "pass",
+  "trigger": "The original 090 anchor and row-9 cardinal were ambiguous to the blind-review majority.",
+  "repair": "Regenerated one grounded 090 anchor and recomposed the approved four-cardinal strip.",
+  "screen_coordinate_evidence": {
+    "pupils": "Both pupils occupy the screen-right sides of their oval eye whites.",
+    "nose_and_mouth": "The tiny nose tip and open pink mouth project toward the right image edge.",
+    "face_and_head": "The smooth face plane and head yaw are the visible opposite of the 270 screen-left anchor."
+  },
+  "identity": "The repaired anchor preserves the wolf body and the reference image's smooth tan human/anime face without a canine muzzle or dog nose."
+}

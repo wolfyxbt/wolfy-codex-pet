@@ -1,0 +1,8 @@
+{
+  "decision": "install_requested_hover_repair",
+  "requested_scope": "Replace only the five-frame hover row so Wolfy keeps the prior side-front orientation while the whip uses first-person user-camera perspective.",
+  "requested_scope_result": "pass",
+  "preexisting_unrelated_finding": "The independent full-sheet worker classified the unchanged running-right row as visually facing screen-left.",
+  "reason": "The requested hover row passes all hard visual requirements, deterministic v2 validation passes, and changing another approved animation would exceed the user's requested surgical scope.",
+  "reviewed_by": "parent"
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "errors": [],
+  "identity": {
+    "status": "pass",
+    "evidence": "All four anchors preserve the smooth tan human/anime face, black bangs, oval white eyes, tiny line nose, open surprised mouth, and forehead mark without introducing a canine muzzle or dog nose."
+  },
+  "directions": [
+    {
+      "direction": "000",
+      "status": "pass",
+      "evidence": "Both pupils and the smooth face plane lift upward with no horizontal bias."
+    },
+    {
+      "direction": "090",
+      "status": "pass",
+      "evidence": "After blind QA found the original anchor ambiguous, the regenerated anchor places both pupils on the screen-right sides of their eye whites and projects the tiny nose line, open mouth, cheek plane, and head yaw unmistakably toward the right image edge."
+    },
+    {
+      "direction": "180",
+      "status": "pass",
+      "evidence": "Both pupils, nose line, mouth, and chin tuck downward with no horizontal bias."
+    },
+    {
+      "direction": "270",
+      "status": "pass",
+      "evidence": "The tiny nose line, pupils, cheek exposure, and head yaw move clearly toward screen-left."
+    }
+  ]
+}

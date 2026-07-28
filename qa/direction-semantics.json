@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker after parent preliminary labeled review",
+  "identity": {
+    "verdict": "pass",
+    "reason": "All 16 cells keep the complete gray wolf body and the reference image's smooth tan human/anime face, black bangs, oval white eyes, tiny line nose, open pink mouth, and forehead mark. No cell introduces a canine muzzle, dog nose, furry facial mask, or back view."
+  },
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "Both pupils sit high and the smooth face and chin lift vertically; no horizontal axis is required.",
+      "reason": "Blind vertical cardinal review unanimously confirmed up."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "Pupils remain raised while the nose, mouth, cheek plane, and head begin turning toward the right image edge.",
+      "reason": "Both axes were confirmed in the blind majority and the labeled loop advances naturally from 000."
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "Raised pupils supply up; visible rightward nose projection and face yaw supply screen-right.",
+      "reason": "Both blind axis pairs matched and the labeled diagonal is clear."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "The head and smooth face turn farther right while the pupils remain visibly high.",
+      "reason": "Both blind axis pairs matched and the pose leads evenly into 090."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "Pupils sit on the right sides of their eye whites and the tiny nose, open mouth, cheek plane, and head yaw project toward the right image edge.",
+      "reason": "All three blind reviewers confirmed the repaired screen-right cardinal."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "The face remains turned screen-right while the pupils, mouth, chin, and head pitch begin moving down.",
+      "reason": "Both blind axis pairs matched and the labeled pose remains in the correct quadrant."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "Rightward nose projection and cheek turn remain clear while lowered pupils and head pitch supply down.",
+      "reason": "Both blind axis pairs matched."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "Downward gaze dominates with a remaining rightward face and pupil cue before the frontal 180 pose.",
+      "reason": "Both blind axis pairs matched; the large measured boundary diff reflects the intended profile-to-frontal head turn without body-scale failure."
+    },
+    {
+      "direction": "180",
+      "verdict": "warning",
+      "expected": "down",
+      "observed": "Pupils, tiny nose, mouth, and chin point straight down; no horizontal axis is required.",
+      "reason": "Blind vertical cardinal review unanimously confirmed down. The 157.5-to-180 diff metric is a reviewed head-turn outlier, but the labeled normal-size loop shows no wrong direction, registration jump, or body-scale pop."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "The eyes and face pitch are clearly down; the nose and face plane begin moving screen-left but the horizontal cue is subtle at blind display size.",
+      "reason": "Blind vertical review passed while the horizontal majority was ambiguous; labeled normal-size review confirms the first leftward step and no reversal."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "Lowered pupils supply down and the nose, mouth, visible cheek, and head yaw clearly project screen-left.",
+      "reason": "Both blind axis pairs matched."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "The face remains unmistakably screen-left; the lowered eye line and chin retain a visible but subtle down component.",
+      "reason": "Blind horizontal review passed while the vertical majority was ambiguous; the labeled loop remains in the down-left quadrant and advances into 270 without reversal."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "The tiny nose and open mouth project to the left image edge and the visible eye, cheek plane, and head yaw form a strong screen-left profile.",
+      "reason": "All three blind reviewers confirmed the screen-left cardinal."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "The face remains screen-left while the pupils and chin begin lifting.",
+      "reason": "Both blind axis pairs matched; the local diff warning is not a visible snap at normal size."
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "Leftward nose projection and cheek turn remain clear while raised pupils and head pitch supply up.",
+      "reason": "Both blind axis pairs matched."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "The pupils and face clearly aim up; the remaining leftward nose and face cue is subtle near the frontal 000 boundary.",
+      "reason": "Blind vertical review passed while the horizontal majority was ambiguous. Labeled review confirms the final leftward step and the measured center/area change is a profile-to-frontal silhouette change without a wrong quadrant or visible body-scale failure."
+    }
+  ],
+  "accepted_warnings": [
+    "Intermediate blind ambiguity at 202.5 horizontal, 247.5 vertical, and 337.5 horizontal.",
+    "Continuity outliers at 157.5-to-180, 270-to-292.5, and 337.5-to-000 are visually attributable to head and face turn rather than a body registration or scale failure.",
+    "Reported transparent interior hole rows correspond to natural negative spaces between ears, hair, scarf, tail, torso, and legs; no body or face is visibly punctured."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "requested_repair_qa": "pass",
+  "full_contact_sheet_worker_result": "fail_preexisting_unrelated_row",
+  "qa_note": "The requested hover repair satisfies every hard requirement and preserves Wolfy’s identity; the worker separately flagged the unchanged pre-existing running-right row as facing screen-left.",
+  "hover_semantics": [
+    "Frame 0: alert side-front setup without the whip.",
+    "Frame 1: first-person rump contact with a clear pained lift.",
+    "Frame 2: sustained foreshortened contact with a stronger curled recoil.",
+    "Frame 3: whip-free airborne recoil.",
+    "Frame 4: whip-free guarded landing."
+  ],
+  "orientation_evidence": "Across frames 0–4 the muzzle, face, chest, and leading forelegs remain screen-left and viewer-readable while the torso extends back to screen-right, with the hindquarters and tail base consistently behind rather than aimed at the viewer.",
+  "first_person_evidence": "Frames 1–2 show an oversized lower-center foreground hand gripping a very thick near handle that narrows sharply into a curved thin lash terminating visibly on the screen-right rump beside the tail base.",
+  "review_warnings": [
+    "Accepted pre-existing intermediate direction blind ambiguities and continuity metric warnings.",
+    "The unchanged pre-existing running-right row was outside this hover-only repair and was preserved exactly."
+  ],
+  "repair_rows": [
+    "running-right"
+  ],
+  "repair_notes": [
+    "Out-of-scope pre-existing issue: a future separate repair may regenerate running-right so its head, forequarters, and travel point screen-right."
+  ]
+}

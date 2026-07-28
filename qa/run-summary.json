@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "repair": "Replaced only the five-frame jumping/hover row. Wolfy keeps the prior side-front screen-left orientation while a lower-center first-person hand and thick handle taper into depth to a thin screen-right rump-contact tip, followed by a pained recoil.",
+  "requested_repair_qa": "pass",
+  "scope_resolution": "The independent worker's unrelated pre-existing running-right finding was recorded and left unchanged to keep this repair surgical.",
+  "run_dir": ".",
+  "spritesheet": "spritesheet.webp",
+  "validation": "qa/validation-extended.json",
+  "chroma_despill": "qa/chroma-despill-extended.json",
+  "contact_sheet": "qa/contact-sheet-extended.png",
+  "hover_preview": "qa/previews/jumping.gif",
+  "direction_sheet": "qa/look-directions.png",
+  "direction_semantics": "qa/direction-semantics.json",
+  "blind_direction_validation": "qa/direction-blind-validation.json",
+  "continuity": "qa/look-continuity.json",
+  "review": "qa/review.json",
+  "final_visual_qa": "qa/final-visual-qa.json",
+  "repair_scope_resolution": "qa/repair-scope-resolution.json",
+  "package": "."
+}

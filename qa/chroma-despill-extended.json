@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "spritesheet-extended.png",
+  "output": "spritesheet-extended.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 9611,
+  "decontaminated_pixels": 9235,
+  "spill_suppressed_pixels": 9611,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r4c0": 2399,
+    "r4c3": 2062,
+    "r4c4": 1808,
+    "r4c1": 1744,
+    "r4c2": 1598
+  },
+  "alpha_preserved": true
+}
